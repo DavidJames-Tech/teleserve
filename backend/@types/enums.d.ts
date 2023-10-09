@@ -1,6 +1,9 @@
+enum Rank {
+    F,G,A,B,C,D,E,S
+}
 
-declare enum Account {
-    Organization,
-    Indie,
-    Researcher
+enum ServiceJobStatus {
+    "Failed",
+    "Pending",
+    "Success"
 }
