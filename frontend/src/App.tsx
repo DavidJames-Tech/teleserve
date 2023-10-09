@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import twaLogo from './assets/tapps.png'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 import WebApp from '@twa-dev/sdk'
+import RequestModal from './components/RequestModal'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+
 
   return (
     <>
-      <div>
+      <div className='px-4 py-3 bg-gray-300 rounded-full'>
           Welcome to Teleserve
       </div>
+
+      <RequestModal />
     </>
   )
 }
