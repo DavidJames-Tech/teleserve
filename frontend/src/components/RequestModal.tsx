@@ -17,7 +17,7 @@ const RequestModal = forwardRef((props, ref) => {
 
     return (
         <>
-        <div className="fixed top-0 left-0 w-screen h-screen bg-white/90">
+        <div className="fixed top-0 left-0 w-screen backdrop-blur-md h-screen bg-black/90">
             
         </div>
         </>
